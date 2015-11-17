@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-product.master.cs" Inherits="site_product" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+                    <asp:ContentPlaceHolder id="head" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphAside" Runat="Server">
+    <asp:ContentPlaceHolder id="cphAside" runat="server">
+    </asp:ContentPlaceHolder>
+    <h2 class="title-b">Danh mục sản phẩm</h2>
+    <ul class="menu-product">
+        <li><a class="corner" href="san-pham.aspx">Thớt gỗ</a></li>        <li><a class="corner" href="#">Muỗng sạn</a></li>        <li><a class="corner" href="#">Đồ gia dụng khác</a></li>
+    </ul>
+    <h2 class="title-a corner">Hệ thống phân phối</h2>
+    <div class="box-aside corner">
+        <ul class="list-menu list-icon">
+            <li><a href="#">Trung Tâm Phân Phối Sài Gòn Coop </a></li>            <li><a href="#">Trung Tâm Thu Mua Big C Siêu Thị Satra Sài Gòn </a></li>            <li><a href="#">Siêu Thị Intimex Hà Nội</a></li>            <li><a href="#">Siêu Thị Intimex Tây Ninh Hanoi FiviMart Chain </a></li>            <li><a href="#">Siêu Thị Citimart</a></li>
+        </ul>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphPopup" Runat="Server">
+                    <asp:ContentPlaceHolder id="cphPopup" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+
