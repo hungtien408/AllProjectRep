@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-chiase.master.cs" Inherits="site_chiase" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+                    <asp:ContentPlaceHolder id="head" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphAside" Runat="Server">
+    <h2 class="title-a corner">Chia sẽ kinh nghiệm</h2>
+    <div class="box-aside corner">
+        <ul class="list-menu">
+            <li><a href="meo-vat.aspx"><span class="icona-left icon-double-angle-right"></span>Mẹo vặt nhà bế</a></li>            <li><a href="chia-se.aspx"><span class="icona-left icon-double-angle-right"></span>FAQ</a></li>
+        </ul>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphPopup" Runat="Server">
+                    <asp:ContentPlaceHolder id="cphPopup" runat="server">
+                    </asp:ContentPlaceHolder>
+</asp:Content>
+

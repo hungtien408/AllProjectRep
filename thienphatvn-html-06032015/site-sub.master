@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="container">
+        <div id="site">
+            <asp:ContentPlaceHolder id="cphSite" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="colAside" class="desktop-showhide">
+            <ul id="listProduct" class="menu-product">
+            </ul>
+        </div>
+        <div id="colMain">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphBottom" Runat="Server">
+    <div id="mobileRight" class="mobile-panel mobilep-right mobile-bg">
+        <div class="close-menu"><a href="#mobileRight" class="glyphicon glyphicon-remove-circle"></a></div>
+        <div class="menu-in">
+            <div class="menu-mobile">
+                <h2 class="title-m text-center text-uppercase">Danh mục sản phẩm</h2>
+                <ul class="menu-product">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder id="cphBottom" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
