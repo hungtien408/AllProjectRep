@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="assets/styles/site.css" rel="stylesheet" type="text/css" />
+    <script src="assets/js/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--js uniform dropdownlist-->
+    <script src="assets/js/jquery.uniform.min.js" type="text/javascript"></script>
+    <link href="assets/styles/uniform-base.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.selectb').uniform();
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--[if lt IE 9]>
+            <style type="text/css">
+               .corner
+               { 
+                    position: relative; behavior: url(PIE.htc); 
+               }
+            </style>
+    <![endif]-->
+    <!--[if IE]>
+	    <script src="assets/js/html5shiv.js" type="text/javascript"></script>
+   <![endif]-->
+    <!--[if lte IE 7]>
+	    <script src="assets/js/IE8.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="header-top">
+            <div class="wrapper-main">
+                <div id="header-view">
+                    <div class='box-logins <%= Session["IsLogin"] ==null ? "" : "hidden" %>'>
+                        <a class="link-a" href="dang-ky.aspx">Đăng ký</a><span>|</span><a class="link-a login-link"
+                            href="#login">Đăng nhập</a>
+                    </div>
+                    <div class='box-logins <%= Session["IsLogin"] ==null ? "hidden" : "" %>'>
+                        <a class="link-a" href="doi-mat-khau.aspx">
+                            <%= Session["UserName"] %></a>|
+                        <asp:LinkButton ID="lnkLogout" runat="server" CssClass="link-a">Thoát</asp:LinkButton>
+                    </div>
+                </div>
+                <div class="clr">
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="wrapper-main">
+                <div class="header-left">
+                    <div class="logo">
+                        <a id="A1" href="~/" runat="server">
+                            <img src="assets/images/logo.png" alt="logo" /></a></div>
+                    <div class="nameco">
+                        <img src="assets/images/nameco.png" alt="" /></div>
+                </div>
+                <div class="header-right">
+                    <div class="header-wrap">
+                        <div class="wrap-hotline">
+                            <div id="hotline">
+                                <strong>84 903 810 059 </strong>(Mua hàng)<span></span><strong>84 947 838 028 </strong>
+                                (Bảo hành)</div>
+                        </div>
+                        <div id="languge">
+                            <a href="#">
+                                <img src="assets/images/flag-vn.png" alt="" /></a> <a href="#">
+                                    <img src="assets/images/flag-en.png" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="header-wrap">
+                        <div class="wrap-search corner">
+                            <div id="search">
+                                <div class="search-form">
+                                    <div class="select-box">
+                                        <asp:DropDownList CssClass="selectb" ID="DropDownList1" runat="server">
+                                            <asp:ListItem>- Danh mục</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div class="search-input">
+                                        <asp:TextBox ID="TextBox1" CssClass="search-text" runat="server"></asp:TextBox></div>
+                                    
+                                </div>
+                                <asp:Button ID="Button1" CssClass="search-btn" runat="server" Text="Button" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="col-left">
+            </div>
+            <div id="col-right">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <p style="text-align: center;">
+                Footer</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
