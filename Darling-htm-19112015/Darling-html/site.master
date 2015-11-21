@@ -50,7 +50,12 @@
                 collapsible: true,
                 icons: icons
             });
-
+            $(".menu-list").accordion("option", "active", 1);
+            $("#tabs").tabs();
+            $("#tabtv").tabs();
+            $("#tabtd").tabs();
+            $("#tabtm").tabs();
+            $("#tabtl").tabs();
         });
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
