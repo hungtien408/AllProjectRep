@@ -1,23 +1,16 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-about.master.cs" Inherits="site_about" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="col-left">
-        <div class="wrap-left">
+        <div class="wrap-left menu-about">
             <div id="colAside">
-                <ul class="menu-list menu-pro corner">
-                    <li><a href="#">Tivi</a></li>
-                    <li><a href="#">Tủ đông </a>
-                        <ul>
-                            <li><a href="#">Tủ ống đồng<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ ống nhôm<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ một ngăn<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ hai ngăn<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Tủ mát</a></li>
-                    <li><a href="#">Tủ lạnh</a></li>
+                <ul class="menu-list corner">
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Vision </a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">History</a></li>
                 </ul>
             </div>
         </div>
@@ -49,8 +42,6 @@
                 <li><a href="san-pham.aspx">Khuyến mãi</a></li>
                 <li><a href="lien-he.aspx">Liên hệ</a></li>
             </ul>
-            <asp:ContentPlaceHolder ID="banner" Runat="Server">
-            </asp:ContentPlaceHolder>
         </div>
         <asp:ContentPlaceHolder ID="colRight" Runat="Server">
         </asp:ContentPlaceHolder>

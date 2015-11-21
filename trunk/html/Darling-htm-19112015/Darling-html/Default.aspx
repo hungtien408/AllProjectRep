@@ -1,68 +1,29 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
+    CodeFile="Default.aspx.cs" Inherits="Default2" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="colLeft" Runat="Server">
-    <div class="wrap-left">
-            <div id="colAside">
-                <ul class="menu-list corner">
-                    <li><a href="#">Tivi</a></li>
-                    <li><a href="#">Tủ đông </a>
-                        <ul>
-                            <li><a href="#">Tủ ống đồng<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ ống nhôm<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ một ngăn<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                            <li><a href="#">Tủ hai ngăn<span class="icona-right fa fa-long-arrow-right"></span></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Tủ mát</a></li>
-                    <li><a href="#">Tủ lạnh</a></li>
-                </ul>
+<asp:Content ID="Content1" ContentPlaceHolderID="colLeft" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="colRight" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="banner" runat="server">
+    <div id="banner">
+        <div class="slider-wrapper">
+            <div id="slider" class="nivoSlider">
+                <img src="assets/images/banner-img-1.jpg" alt="" />
+                <img src="assets/images/banner-img-2.jpg" alt="" />
+                <img src="assets/images/banner-img-3.jpg" alt="" />
             </div>
         </div>
+    </div>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="colRight" Runat="Server">
-    <div class="wrap-right">
-            <ul id="menu" class="sf-menu">
-                <li class="active"><a id="A1" href="~/" runat="server">Trang chủ</a></li>
-                <li><a href="gioi-thieu.aspx">Giới thiệu</a></li>
-                <li><a href="san-pham.aspx">Sản phẩm</a>
-                    <ul>
-                        <li><a href="#">Tivi</a></li>
-                        <li><a href="#">Tủ đông</a>
-                            <ul>
-                                <li><a href="#">Tủ ống đồng</a></li>
-                                <li><a href="#">Tủ ống nhôm</a></li>
-                                <li><a href="#">Tủ một ngăn</a></li>
-                                <li><a href="#">Tủ hai ngăn</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Tủ mát</a></li>
-                        <li><a href="#">Tủ lạnh</a></li>
-                    </ul>
-                </li>
-                <li><a href="san-pham.aspx">Tin tức</a></li>
-                <li><a href="san-pham.aspx">Chính sách bảo hành</a></li>
-                <li><a href="san-pham.aspx">Khuyến mãi</a></li>
-                <li><a href="lien-he.aspx">Liên hệ</a></li>
-            </ul>
-            <div id="banner">
-                <div class="slider-wrapper">
-                    <div id="slider" class="nivoSlider">
-                        <img src="assets/images/banner-img-1.jpg" alt="" />
-                        <img src="assets/images/banner-img-2.jpg" alt="" />
-                        <img src="assets/images/banner-img-3.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="mainContent" Runat="Server">
+<asp:Content ID="Content4" ContentPlaceHolderID="mainContent" runat="Server">
     <div id="tabs" class="section-box">
-        <div  class="head">
+        <div class="head">
             <h2 class="title">
                 sản phẩm khuyến mãi</h2>
             <ul class="menu-control">
-                <li><a class="link-tabs" href="#tabsb-1">Sản phẩm mới</a></li><li><a class="link-tabs" href="#tabsb-2">Sản
-                    phẩm hot</a></li>
+                <li><a class="link-tabs" href="#tabsb-1">Sản phẩm mới</a></li><li><a class="link-tabs"
+                    href="#tabsb-2">Sản phẩm hot</a></li>
             </ul>
             <div class="clr">
             </div>
@@ -1859,4 +1820,3 @@
         </div>
     </div>
 </asp:Content>
-

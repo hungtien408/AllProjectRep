@@ -46,11 +46,11 @@
                 header: "ui-icon-circle-arrow-e",
                 activeHeader: "ui-icon-circle-arrow-s"
             };
-            $('.menu-list').accordion({
+            $('.menu-pro').accordion({
                 collapsible: true,
                 icons: icons
             });
-            $(".menu-list").accordion("option", "active", 1);
+            $(".menu-pro").accordion("option", "active", 1);
             $("#tabs").tabs();
             $("#tabtv").tabs();
             $("#tabtd").tabs();
