@@ -557,51 +557,6 @@ body {
 {
     background-position: -36px -36px;
 }
-/*==============================*/
-.box-type
-{
-    text-align: center;
-    padding-bottom: 20px;
-    width: 190px;
-}
-.box-type .type-img
-{
-    display: block;
-    height: 95px;
-    width: 190px;
-}
-.box-type .type-img img
-{
-    display: inline-block;
-    vertical-align: middle;
-    max-height: 95px;
-    max-width: 230px;
-}
-.type-name a
-{
-    color: #666;
-    display: block;
-    font-size: 13px;
-    line-height: 20px;
-}
-.type-name a span
-{
-    background: url(../images/icon-5.png) no-repeat right center;
-    display: inline-block;
-    padding-right: 15px;
-}
-.type-name a:hover
-{
-    text-decoration: none;
-}
-.box-type:hover .type-name a
-{
-    color: #ff6c00;
-}
-.type-name a:hover span, .box-type:hover .type-name a span
-{
-    background: url(../images/icon-5b.png) no-repeat right center;
-}
 /*===============*/
 .wrap-tb
 {
@@ -631,22 +586,6 @@ body {
     position: absolute;
     z-index: 10;
 }
-/*.box-pro .pro-type
-{
-    display: block;
-    left: 10px;
-    top: 5px;
-    position: absolute;
-    height: 40px;
-    width: 65px;
-    z-index: 9;
-}
-.box-pro .pro-type img
-{
-    display: block;
-    max-height: 40px;
-    max-width: 65px;
-}*/
 .box-pro .pro-name
 {
     padding: 30px 20px 0;
