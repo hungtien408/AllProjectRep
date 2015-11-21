@@ -430,17 +430,17 @@ body {
     margin-top: -8px;
 }
 .ui-state-default .ui-icon {
-    background-image: url('../images/ui-icons_444444_256x240.png');
+    background-image: url('../images/ui-icons.png');
 }
 .ui-icon-circle-arrow-s {
-    background-position: -64px -192px;
+    background-position: 0 -19px;
 }
 .ui-icon-circle-arrow-e {
-    background-position: -48px -192px;
+    background-position: 0 0;
 }
 .ui-icon {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     display: block;
     text-indent: -99999px;
     overflow: hidden;
@@ -492,6 +492,12 @@ body {
     overflow: hidden;
     text-align: left;
 }
+.menu-control li {
+    float: left;
+}
+.menu-control li a:hover{
+    text-decoration: none;
+}
 .menu-control .link-tabs {
     margin: 0 15px;
     text-transform: uppercase;
@@ -511,32 +517,14 @@ body {
 {
     text-align: right;
     margin-right: 12px;
+    float: right;
 }
 .control-right .link-tabs
 {
     text-transform: none;
 }
-.page-select
-{
-    float: right;
-    padding-right: 15px;
-    width: 245px;
-}
-.page-select span
-{
-    color: #444;
-    display: block;
-    float: right;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 34px;
-    padding: 0 5px;
-}
-.box-select
-{
-    float: right;
-    margin-top: 6px;
-    width: 56px;
+.control-right li {
+    float: left;
 }
 .head .pager
 {
@@ -680,7 +668,7 @@ body {
 {
     display: block;
     text-align: center;
-    padding-top: 35px;
+    padding: 15px 0;
     position: relative;
     height: 155px;
     width: 245px;
@@ -716,7 +704,7 @@ body {
 .box-price .price-lr, .pro-bottom .pro-lr 
 {
     float: left;
-    width: 60%;
+    width: 62%;
     margin: 0 50px;
 }
 .box-price .discount
@@ -809,6 +797,11 @@ body {
 .pro-bottom a:hover
 {
     text-decoration: none;
+}
+.img-boxleft {
+    width: 238px;
+    height: 361px;
+    display: block;
 }
 #main-content #col-left {
     float: left;
