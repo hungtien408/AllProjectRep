@@ -1,7 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true"
+    CodeFile="Default2.aspx.cs" Inherits="_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="colLeft" Runat="Server">
-    <div class="wrap-left">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="wrap-in">
+        <div class="wrap-left">
             <div id="colAside">
                 <ul class="menu-list corner">
                     <li><a href="#">Tivi</a></li>
@@ -18,9 +22,7 @@
                 </ul>
             </div>
         </div>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="colRight" Runat="Server">
-    <div class="wrap-right">
+        <div class="wrap-right">
             <ul id="menu" class="sf-menu">
                 <li class="active"><a id="A1" href="~/" runat="server">Trang chủ</a></li>
                 <li><a href="gioi-thieu.aspx">Giới thiệu</a></li>
@@ -54,8 +56,7 @@
                 </div>
             </div>
         </div>
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="mainContent" Runat="Server">
+    </div>
     <div id="tabs" class="section-box">
         <div  class="head">
             <h2 class="title">
@@ -1859,4 +1860,3 @@
         </div>
     </div>
 </asp:Content>
-

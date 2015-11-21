@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div id="col-left">
+        <asp:ContentPlaceHolder ID="colLeft" Runat="Server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="col-right">
+        <asp:ContentPlaceHolder ID="colRight" Runat="Server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="mainContent" Runat="Server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

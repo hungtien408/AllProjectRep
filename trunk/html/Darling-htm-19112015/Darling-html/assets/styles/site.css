@@ -231,13 +231,13 @@ body {
     top: 0;
     left: 0;
 }
-.wrap-in .wrap-left {
+.wrap-left {
     float: left;
     width: 265px;
     height: 463px;
     background-color: #c0e8fb;
 }
-.wrap-in .wrap-right {
+.wrap-right {
     float: right;
     width: 935px;
 }
@@ -744,13 +744,11 @@ body {
 }
 #main-content #col-left {
     float: left;
-    width: 240px;
-    border: 1px solid #000;
+    width: 265px;
 }
 #main-content #col-right {
     float: right;
-    width: 730px;
-    border: 1px solid #000;
+    width: 935px;
 }
 /*======================================================FOOTER===========================================*/
 #footer
