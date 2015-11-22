@@ -244,13 +244,24 @@ body {
     float: right;
     width: 935px;
     background: #fff url("../images/bg-menu.png") repeat-x left top;
+    border-top: 1px solid #cccccc;
+}
+.wrap-center
+{
+    width: 100%;
+    overflow: hidden;
+    background: #fff url("../images/bg-menu.png") repeat-x left top;
+    border-top: 1px solid #cccccc;
+}
+.wrap-center #menu
+{
+    width: 75%;
 }
 #menu {
     list-style: none;
     padding-left: 15px;
-    margin: 0;
+    margin: 0 auto;
     background-color: #eaeaea;
-    border-top: 1px solid #cccccc;
     position: relative;
     z-index: 99;
 }
@@ -269,7 +280,6 @@ body {
 }
 #menu > li:last-child a {
     background: none;
-    
 }
 #menu  li {
     position: relative;
@@ -282,12 +292,10 @@ body {
     line-height: 36px;
     background: url(../images/line-menu.png) no-repeat right center;
 }
-
 #menu > li a:hover, #menu > li.active a {
     text-decoration: none;
     color: #0084c1;
 }
-
 #menu ul
 {
     display: none;
@@ -297,42 +305,41 @@ body {
     position: absolute;
     white-space: nowrap;
 }
-    #menu ul li {
-        background-color: #0086c4;
-        border-bottom: solid 1px #339ed0;
-    }
-    #menu ul li a {
-        
-        font-size: 14px;
-        line-height: 24px;
-        padding: 10px 12px;
-        display: block;
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-    #menu ul ul li a {
-
-        text-transform: none;
-    }
-    #menu > li > ul {
-        left: 0;
-        top: 100%;
-    }
-    #menu ul ul{
-        left: 100%;
-        top: 0;
-        padding-left: 1px;
-    }
-    #menu .menu-right ul ul{
-        left: auto;
-        right: 100%;
-        padding-left: 0;
-        padding-right: 1px;
-    }
-    #menu ul > li:hover > a, #menu ul > li > a:hover, #menu ul > li.active > a {
-        
-    }
+#menu ul li {
+    background-color: #0086c4;
+    border-bottom: solid 1px #339ed0;
+}
+#menu ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 12px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#menu ul ul li a {
+    text-transform: none;
+}
+#menu > li ul li a:hover {
+    color: #fff;
+    background-color: #ec1d25;
+}
+#menu > li > ul {
+    left: 0;
+    top: 100%;
+}
+#menu ul ul{
+    left: 100%;
+    top: 0;
+    padding-left: 1px;
+}
+#menu .menu-right ul ul{
+    left: auto;
+    right: 100%;
+    padding-left: 0;
+    padding-right: 1px;
+}
 .icon-menu {
     text-align: right;
 }
@@ -768,6 +775,218 @@ body {
 .wrapright-main {
     float: left;
     padding-left: 25px;
+}
+.head-2 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.about-wrap .head-2
+{
+    margin-top: 36px;
+}
+.head-2 .title-3 {
+    float: left;
+}
+.title-3
+{
+    color: #0086c4;
+    font-size: 24px;
+    line-height: 30px;
+}
+.wrap-text
+{
+    color: #282828;
+    font-size: 14px;
+    width: 100%;
+    line-height: 24px;
+}
+.about-wrap .wrap-text
+{
+    padding: 22px 0 40px;
+}
+/*====news====*/
+.news-list
+{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.news-list .head-2
+{
+    width: 517px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ec1d25;
+    padding-top: 30px;
+}
+.head-2 .menu-control {
+    margin: 0px 150px;
+    width: 42%;
+    overflow: hidden;
+    text-align: center;
+}
+.head-2 .menu-control li {
+    margin-right: 6px;
+    border: 1px solid #0086c4;
+    border-bottom: none;
+}
+.head-2 .menu-control li:hover, .head-2 .menu-control li.active {
+    margin-right: 6px;
+    border: 1px solid #ec1d25;
+    border-bottom: none;
+}
+.head-2 .menu-control li:hover a, .head-2 .menu-control li.active a {
+    color: #ec1d25;
+}
+.head-2 .menu-control li:last-child {
+    
+    margin-right: 0;
+}
+.head-2 .menu-control a 
+{
+    color: #0086c4;
+}
+.news-row
+{
+    overflow: hidden;
+    width: 100%;
+}
+.news-row .section-box
+{
+    color: #363636;
+    font-size: 14px;
+    line-height: 22px;
+    border: none;
+    margin: 0;
+}
+.section-inbox {
+    overflow: hidden;
+    padding: 36px 65px 40px;
+}
+.section-box .section-img {
+    display: block;
+    float: left;
+    width: 299px;
+}
+.section-box .section-content {
+    overflow: hidden;
+    padding-left: 25px;
+}
+.section-box .description
+{
+    margin-top: 20px;
+}
+.section-box .section-name a {
+    color: #000;
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+.section-box .section-name a:hover {
+    color: #0086c4;
+    text-decoration: none;
+}
+.news-row .section-img img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 192px;
+    max-width: 299px;
+}
+.more-detail
+{
+    padding-top: 10px;
+    padding-left: 25px;
+    overflow: hidden;
+    width: 100px;
+}
+.more-detail a {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 0 18px;
+    line-height: 27px;
+    background-color: #0086c4;
+}
+.more-detail a:hover {
+    background-color: #ec1d25;
+    text-decoration: none;
+}
+.more-detail span {
+    padding-left: 6px;
+}
+/*===pager===*/
+.pager {
+    vertical-align: top;
+    margin: 0;
+    padding: 15px 0 30px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    width: 80%;
+    float: right;
+}
+.pager-line {
+    border-top: solid 1px #cdcdcd;
+    margin-top: 20px;
+}
+.pager a, .pager span {
+    color: #282828;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: top;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 3px;
+    min-width: 20px;
+}
+.pager .first, .pager .last, .pager .prev, .pager .next {
+    background: url(../images/pager-bg.png) no-repeat left top;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -9999em;
+    margin: 0;
+    width: 20px;
+}
+.pager .first
+{
+    background-position: right top;
+}
+.pager .first:hover
+{
+    background: url(../images/pager-bg.png) no-repeat right bottom;
+}
+.pager .last
+{
+    background-position: -40px top;
+}
+.pager .last:hover
+{
+    background: url(../images/pager-bg.png) no-repeat -40px bottom;
+}
+.pager .prev
+{
+    background-position: left top;
+}
+.pager .prev:hover
+{
+    background: url(../images/pager-bg.png) no-repeat left bottom;
+}
+.pager .next
+{
+    background-position: -20px top;
+}
+.pager .next:hover
+{
+    background: url(../images/pager-bg.png) no-repeat -20px bottom;
+}
+.pager a:hover, .pager a.current, .pager span.current {
+    background-color: #e9131d;
+    color: #fff;
+    text-decoration: none;
 }
 /*======================================================FOOTER===========================================*/
 #footer
