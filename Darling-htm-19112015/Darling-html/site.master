@@ -22,9 +22,6 @@
     <!--banner-->
     <script src="assets/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(window).load(function () {
-
-        });
         $(document).ready(function () {
             $('.selectb').uniform();
 
@@ -60,6 +57,17 @@
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <!--active menu-->
+    <script type="text/javascript">
+        function changeActiveMenu(page) {
+            $('#menu li').removeClass("active");
+            $('#menu li a[href*="' + page + '"]').parent("li").addClass("active");
+        }
+        function changeSubActiveMenu(page) {
+            $('#menu li li').removeClass("active");
+            $('#menu li li a[href$="' + page + '"]').parents("li").addClass("active");
+        }
+    </script>
     <!--[if lt IE 9]>
             <style type="text/css">
                .corner
