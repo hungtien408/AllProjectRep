@@ -53,6 +53,27 @@
             $("#tabtd").tabs();
             $("#tabtm").tabs();
             $("#tabtl").tabs();
+            $("#tabnews").tabs();
+
+
+            $(".login-link").click(function () {
+                $("#mask-bg").remove();
+                $(this).toggleClass("current");
+                var idlogin = $(this).attr("href");
+                if ($(this).hasClass("current")) {
+                    $(idlogin).slideDown();
+                    $("#wrapper").append('<div id="mask-bg"></div>');
+                } else {
+                    $(idlogin).slideUp();
+                    $("#mask-bg").remove();
+                }
+                $("#login").mouseleave(function () {
+                    $(".login-link").removeClass("current");
+                    $("#login").fadeOut();
+                    $("#mask-bg").remove();
+                });
+                return false;
+            });
         });
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -98,7 +119,29 @@
                             <%= Session["UserName"] %></a>|
                         <asp:LinkButton ID="lnkLogout" runat="server" CssClass="link-a">Thoát</asp:LinkButton>
                     </div>
+                    <div id="login">
+                        <div class="login-input">
+                            <label class="login-lb">
+                                Email</label>
+                            <asp:TextBox ID="TextBox3" CssClass="login-text" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="login-input">
+                            <label class="login-lb">
+                                Mật khẩu</label>
+                            <asp:TextBox ID="TextBox4" CssClass="login-text" TextMode="Password" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="login-input">
+                            <asp:Button ID="LoginButton1" CssClass="btn-a"
+                                runat="server" Text="Đăng nhập" />
+                        </div>
+                        <div class="login-input invisible">
+                            <p class="link-for">
+                                <a href="#">Quên mật khẩu?</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="clr">
                 </div>
             </div>

@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site-sub2.master" AutoEventWireup="true" CodeFile="site-news.master.cs" Inherits="site_news" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="mainContent" Runat="Server">
+    <div id="tabnews" class="news-list">
+        <div class="head-2">
+            <ul class="menu-control">
+                <li><a class="link-tabs" href="#tabn-1">Tin tức</a></li><li><a class="link-tabs"
+                    href="#tabn-2">Tuyển dụng</a></li>
+            </ul>
+        </div>
+        <div id="tabn-1">
+            <asp:ContentPlaceHolder ID="tabTinTuc" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabn-2">
+            <asp:ContentPlaceHolder ID="tabTuyenDung" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+
