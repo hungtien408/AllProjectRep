@@ -1451,6 +1451,76 @@ body {
 .tb-digital tr td:last-child {
     width: 430px;
 }
+/*=============*/
+.guarantee-list .head-2
+{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: url(../images/bg-head-2.png) repeat-x center center;
+}
+.guarantee-list .head-2 .menu-control {
+    margin: 0 auto;
+    width: 1002px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+.guarantee-list .head-2 .menu-control li {
+    margin-right: 6px;
+    border: 1px solid #0086c4;
+    background-color: #0086c4;
+    border-bottom: none;
+    width: 144px;
+    height: 67px;
+}
+.guarantee-list .head-2 .menu-control li:hover, .guarantee-list .head-2 .menu-control li.ui-tabs-active {
+    border: 1px solid #ec1d25;
+    background-color: #ec1d25;
+}
+.guarantee-list .head-2 .menu-control li:hover a, .guarantee-list .head-2 .menu-control li.ui-tabs-active a {
+    color: #fff;
+}
+.guarantee-list .head-2 .menu-control li:last-child {
+    margin-right: 0;
+}
+.guarantee-list .head-2 .menu-control li:first-child {
+    width: 240px;
+}
+.guarantee-list .head-2 .menu-control a 
+{
+    color: #fff;
+    padding: 10px 16px;
+    display: block;
+    line-height: 24px;
+}
+.guarantee-tabs
+{
+    border: 1px solid #b8b8b8;
+    border-top: none;
+    position: relative;
+    top: -34px;
+}
+.wrap-guarantee
+{
+    overflow: hidden;
+    padding: 56px;
+}
+.wrap-guarantee .img-guarantee img
+{
+    float: left;
+    width: 354px;
+    display: block;
+}
+.wrap-guarantee .guarantee-content
+{
+    float: left;
+    width: 65%;
+    padding-top: 12px;
+    color: #363636;
+    font-size: 14px;
+    line-height: 28px;
+}
 /*======================================================FOOTER===========================================*/
 #footer
 {
