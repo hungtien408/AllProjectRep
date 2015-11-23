@@ -56,6 +56,7 @@
             $("#tabtl").tabs();
             $("#tabnews").tabs();
             $("#tabsdetail").tabs();
+            $("#tabguarantee").tabs();
 
             $(".login-link").click(function () {
                 $("#mask-bg").remove();
@@ -89,7 +90,7 @@
             });
             $("#gallery").find('a').each(function () {
                 $('#gallery > a:first').removeClass("elevatezoom-gallery").addClass("elevatezoom-gallery active");
-            }); 
+            });
         });
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">

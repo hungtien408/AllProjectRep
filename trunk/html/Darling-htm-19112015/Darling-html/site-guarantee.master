@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site-sub2.master" AutoEventWireup="true" CodeFile="site-guarantee.master.cs" Inherits="site_guarantee" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="mainContent" Runat="Server">
+    <div id="tabguarantee" class="guarantee-list">
+        <div class="head-2">
+            <ul class="menu-control">
+                <li><a class="link-tabs" href="#tabcsbh-1">Trung tâm chăm sóc khách hàng</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-2">Danh sách trạm</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-3">Điều khoản bảo hành</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-4">Hỏi / Đáp</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-5">Hướng dẫn sử dụng</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-6">Thông tin khác</a></li>
+            </ul>
+        </div>
+        <div id="tabcsbh-1" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabTrungTamCSKH" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabcsbh-2" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabDSTram" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabcsbh-3" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabDKBH" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabcsbh-4" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabHoiDap" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabcsbh-5" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabHDSD" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabcsbh-6" class="guarantee-tabs">
+            <asp:ContentPlaceHolder ID="tabTTKhac" Runat="Server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+
