@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="colLeft" runat="Server">
     <h3 class="title-a">
         Tin tức</h3>
-    <div class="box-asibar boxnobline">
+    <div class="box-asibar">
         <ul class="list-nav">
             <li><a class="img-news" href="#">
                 <img src="assets/images/img-news-sub-1.jpg" alt="" /></a>
