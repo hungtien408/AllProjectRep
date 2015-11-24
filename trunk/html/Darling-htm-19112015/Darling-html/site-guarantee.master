@@ -4,12 +4,12 @@
     <div id="tabguarantee" class="guarantee-list">
         <div class="head-2">
             <ul class="menu-control">
-                <li><a class="link-tabs" href="#tabcsbh-1">Trung tâm chăm sóc khách hàng</a></li>
-                <li><a class="link-tabs" href="#tabcsbh-2">Danh sách trạm</a></li>
-                <li><a class="link-tabs" href="#tabcsbh-3">Điều khoản bảo hành</a></li>
-                <li><a class="link-tabs" href="#tabcsbh-4">Hỏi / Đáp</a></li>
-                <li><a class="link-tabs" href="#tabcsbh-5">Hướng dẫn sử dụng</a></li>
-                <li><a class="link-tabs" href="#tabcsbh-6">Thông tin khác</a></li>
+                <li><a class="link-tabs" href="#tabcsbh-1">Trung tâm chăm sóc khách hàng<span class="fa fa-sort-down icon-down"></span></a></li>
+                <li><a class="link-tabs" href="#tabcsbh-2">Danh sách trạm<span class="fa fa-sort-down icon-down"></span></a></li>
+                <li><a class="link-tabs" href="#tabcsbh-3">Điều khoản bảo hành<span class="fa fa-sort-down icon-down"></span></a></li>
+                <li><a class="link-tabs" href="#tabcsbh-4">Hỏi / Đáp<span class="icon-down"></span></a></li>
+                <li><a class="link-tabs" href="#tabcsbh-5">Hướng dẫn sử dụng<span class="icon-down"></span></a></li>
+                <li><a class="link-tabs" href="#tabcsbh-6">Thông tin khác<span class="icon-down"></span></a></li>
             </ul>
         </div>
         <div id="tabcsbh-1" class="guarantee-tabs">

@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="tabTrungTamCSKH" runat="Server">
     <div class="wrap-guarantee">
         <div class="img-guarantee">
-            <img src="assets/images/img-cskh.jpg" alt=""/>
+            <img src="assets/images/img-cskh.jpg" alt="" />
         </div>
         <div class="guarantee-content">
             <p>
@@ -33,6 +33,33 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="tabDSTram" runat="Server">
+    <div class="wrap-guarantee">
+        <ul class="list-bh">
+            <li>
+                <div class="box-bh">
+                    <h3 class="title-bh">
+                        Trạm bảo hành số 1</h3>
+                    <div class="content-bh">
+                        <p>
+                            <span class="icon-p">
+                                <img src="assets/images/icon-c-1.png" alt=""></span>Địa chỉ : 469 Hậu Giang,
+                            Phường 11, Quận 6, Tp.HCM
+                        </p>
+                        <p>
+                            <span class="icon-p">
+                                <img src="assets/images/icon-c-2.png" alt=""></span> Tel: <span class="phone">+ 848
+                                    38206072 - 38206073</span>
+                        </p>
+                        <p>
+                            <span class="icon-p">
+                                <img src="assets/images/icon-c-3.png" alt=""></span> <a href="mailto:info@thienphatvina.com.vn">
+                                    info@thienphatvina.com.vn</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="tabDKBH" runat="Server">
 </asp:Content>
