@@ -5,6 +5,24 @@
     <title>HOÀN MỸ</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="wrapper-menu">
+        <div class="wrapper-main">
+            <ul id="menu" class="sf-menu">
+                <li class="active"><a id="A1" href="~/" runat="server">Trang chủ</a></li>
+                <li><a href="gioi-thieu.aspx">Giới thiệu<span class="icon-down"></span></a>
+                    <ul>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Voluptate accusantium</a></li>
+                        <li><a href="#">Doloremque laudantium</a></li>
+                    </ul>
+                </li>
+                <li><a href="san-pham.aspx">Sản phẩm</a></li>
+                <li><a href="lien-he.aspx">Liên hệ</a></li>
+            </ul>
+            <div class="clr">
+            </div>
+        </div>
+    </div>
     <div id="banner">
         <div class="slider-wrapper">
             <div id="slider" class="nivoSlider">

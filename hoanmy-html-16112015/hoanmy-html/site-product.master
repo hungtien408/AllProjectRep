@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
+    CodeFile="site-product.master.cs" Inherits="site_product" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="wrapper-main">
+        <div id="colAside">
+            <h2 class="title-listpro">Danh mục sản phẩm</h2>
+            <ul id="listProduct" class="menu-product">
+                <li><a href="#">Cọ lăn sơn<span class="icona-right"></span></a>
+                    <ul>
+                        <li><a href="#">Cọ lăn sơn loại 1</a></li>
+                        <li><a href="#">Cọ lăn sơn loại 2</a></li>
+                        <li><a href="#">Cọ lăn sơn loại 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Chổi cán nhựa<span class="icona-right"></span></a>
+                    <ul>
+                        <li><a href="#">Chổi cán nhựa loại 1</a></li>
+                        <li><a href="#">Chổi cán nhựa loại 2</a></li>
+                        <li><a href="#">Chổi cán nhựa loại 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Chổi nhựa<span class="icona-right"></span></a>
+                </li>
+                <li><a href="#">Lăn keo<span class="icona-right"></span></a>
+                </li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
