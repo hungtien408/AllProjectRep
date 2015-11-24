@@ -620,10 +620,10 @@ body {
 .menu-control li {
     float: left;
 }
-.menu-control li:hover, .menu-control li.ui-state-active {
+#tabs .menu-control li:hover, #tabs .menu-control li.ui-state-active {
     background-color: #ec2327; 
 }
-.menu-control li a:hover, .menu-control li.ui-state-active a{
+#tabs .menu-control li a:hover, #tabs .menu-control li.ui-state-active a{
     text-decoration: none;
     color: #fff;
 }
@@ -938,6 +938,7 @@ body {
 }
 .head-2 .menu-control li:hover a, .head-2 .menu-control li.active a {
     color: #ec1d25;
+    text-decoration: none;
 }
 .head-2 .menu-control li:last-child {
     
@@ -1460,7 +1461,7 @@ body {
 .tb-digital tr td:last-child {
     width: 430px;
 }
-/*=============*/
+/*======csbh=======*/
 .guarantee-list .head-2
 {
     width: 100%;
@@ -1552,6 +1553,153 @@ body {
     color: #363636;
     font-size: 14px;
     line-height: 28px;
+}
+.list-bh
+{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.list-bh li
+{
+    float: left;
+    width: 50%;
+}
+.box-bh
+{
+    border: 1px solid #b3cbd8;
+    padding: 25px 30px 22px;
+    margin: 7px 16px;
+    box-shadow: 5px 5px 2px #E5E5E6;
+}
+.box-bh .title-bh
+{
+    color: #09537c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.content-bh p {
+    margin-bottom: 5px;
+    vertical-align: top;
+    padding-left: 25px;
+    position: relative;
+}
+.content-bh .icon-p {
+    display: block;
+    vertical-align: top;
+    left: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+}
+.content-bh, .content-bh a {
+    color: #363636;
+    font-size: 13px;
+    line-height: 20px;
+}
+.title-2 {
+    color: #09537c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.download-list {
+    color: #484848;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    padding: 0 0 25px;
+    margin: 0;
+    width: 100%;
+}
+.download-list li {
+    border-bottom: solid 1px #e5e5e5;
+    overflow: hidden;
+    padding: 10px 0 10px 30px;
+    width: 100%;
+}
+.download-list .download-link {
+    display: block;
+    float: right;
+    font-size: 10px;
+    line-height: 24px;
+    margin-right: 12px;
+}
+.download-list .download-link span {
+    display: block;
+    float: left;
+    padding-left: 23px;
+    font-size: 13px;
+    background: url(../images/icon-download.png) no-repeat left center;
+    color: #0086c4;
+}
+.accordion-question {
+    font-size: 14px;
+    line-height: 28px;
+    width: 100%;
+}
+.accordion-question .accordion-head {
+    color: #09537c;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 30px 10px 0;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.accordion-head .icon-left {
+    font-size: 30px;
+    left: 20px;
+    top: 6px;
+    position: absolute;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+}
+.accordion-question .accordion-head .a-icon {
+    color: #5a5a5a;
+    font-weight: 700;
+    left: auto;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px;
+    text-align: right;
+}
+.accordion-head .a-icon {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    left: 35px;
+    top: 10px;
+    position: absolute;
+    width: 15px;
+}
+.accordion-question .accordion-content {
+    border-top: none;
+    display: none;
+    padding: 10px 30px 20px 0;
+}
+.accordion-question .accordion-content .ask {
+    color: #282828;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.accordion-question .accordion-content .desription {
+    text-align: justify;
+    border-left: 2px solid #cccccc;
+    padding-left: 12px;
+}
+.accordion-question .accordion-content p {
+    margin-bottom: 10px;
 }
 /*======================================================FOOTER===========================================*/
 #footer
