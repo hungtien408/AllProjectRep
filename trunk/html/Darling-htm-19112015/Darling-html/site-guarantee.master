@@ -1,6 +1,0 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/site-sub2.master" AutoEventWireup="true" CodeFile="site-guarantee.master.cs" Inherits="site_guarantee" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="mainContent" Runat="Server">
-    
-</asp:Content>
-
