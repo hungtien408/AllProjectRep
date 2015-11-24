@@ -620,8 +620,12 @@ body {
 .menu-control li {
     float: left;
 }
-.menu-control li a:hover{
+.menu-control li:hover, .menu-control li.ui-state-active {
+    background-color: #ec2327; 
+}
+.menu-control li a:hover, .menu-control li.ui-state-active a{
     text-decoration: none;
+    color: #fff;
 }
 .menu-control .link-tabs {
     margin: 0 15px;
