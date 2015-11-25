@@ -23,13 +23,20 @@
         //Cufon.replace('.demo-font, a');
         Cufon.replace('.wrapper-main .title-product .title, .contact-left .address-contact h2', { fontFamily: 'UVN Bach Tuyet' });
     </script>
+    <script src="assets/js/google-maps.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.elevatezoom.js" type="text/javascript"></script>
+    <link href="assets/styles/jcarousel.basic.css" rel="stylesheet" type="text/css" />
+    <script src="assets/js/jquery.jcarousel.min.js" type="text/javascript"></script>
+    <script src="assets/js/jcarousel.basic.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("ul.sf-menu").supersubs({
                 minWidth: 20,
                 maxWidth: 80,
                 extraWidth: 1
-            }).superfish();
+            }).superfish({
+                delay: 50
+            });
 
             if ($('#slider').size() == 1) {
                 var $banner = $('#slider').imagesLoaded(function () {
@@ -42,6 +49,21 @@
             $('.product:odd').addClass(function () {
                 $(this).addClass("bg-product");
                 $('.product:odd .wrapper-main > .title-product span').addClass("bg-title-product");
+            });
+
+            $("#zoom_03").elevateZoom({
+                gallery: 'gallery',
+                cursor: 'move',
+                galleryActiveClass: 'active',
+                imageCrossfade: true,
+                loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+            });
+            $("#zoom_03").bind("click", function (e) {
+                var ez = $('#zoom_03').data('elevateZoom');
+                $.fancybox(ez.getGalleryList()); return false;
+            });
+            $("#gallery").find('a').each(function () {
+                $('#gallery > a:first').removeClass("elevatezoom-gallery").addClass("elevatezoom-gallery active");
             });
         });
     </script>
