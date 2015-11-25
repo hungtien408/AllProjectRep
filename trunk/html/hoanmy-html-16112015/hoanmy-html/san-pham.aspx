@@ -5,7 +5,7 @@
     <div class="wrapper-menu wrap-site">
         <div class="wrapper-main">
             <div id="site">
-                <a href="#">Trang chủ </a>/ <a href="#">Sản phẩm </a>/ <span>Cọ lăn sơn</span>
+                <a href="~/" runat="server">Trang chủ </a>/ <a href="#">Sản phẩm </a>/ <span>Cọ lăn sơn</span>
             </div>
             <div class="clr">
             </div>
