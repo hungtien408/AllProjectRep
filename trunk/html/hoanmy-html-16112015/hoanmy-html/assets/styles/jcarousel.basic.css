@@ -185,11 +185,11 @@
 
 .jcarousel-details-prev:hover,
 .jcarousel-details-next:hover {
-    background: #F14E32;
+    background: #DA2128;
     text-decoration: none;
-    -webkit-box-shadow: 0 0 2px #F14E32;
-       -moz-box-shadow: 0 0 2px #F14E32;
-            box-shadow: 0 0 2px #F14E32;
+    -webkit-box-shadow: 0 0 2px #DA2128;
+       -moz-box-shadow: 0 0 2px #DA2128;
+            box-shadow: 0 0 2px #DA2128;
 }
 
 /*.jcarousel-details-prev.inactive,
