@@ -1956,6 +1956,243 @@ body {
 .search-map .text-search {
     width: 100%;
 }
+/*====register====*/
+.wrapper-register
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.register-left
+{
+    width: 694px;
+    float: left;
+}
+.register-right
+{
+    width: 506px;
+    float: left;
+}
+.section-cart
+{
+    border: solid 1px #dfdfdf;
+    margin-top: 36px;
+    margin-bottom: 28px;
+    padding-left: 65px;
+    min-height: 848px;
+}
+.title-4 {
+    color: #282828;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 45px 20px 23px;
+    line-height: 34px;
+}
+.cart-w
+{
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 620px;
+    font-size: 12px;
+}
+.register-box .wrap-register {
+    border: none;
+    margin: 0;
+}
+.registers {
+    display: block;
+}
+.wrap-register h2 {
+    color: #000;
+    font-size: 18px;
+}
+.wrap-register .fsi {
+    color: #828282;
+    font-size: 12px;
+    line-height: 22px;
+}
+.fsi {
+    font-style: italic;
+}
+.wrap-register .addres-info {
+    padding-top: 30px;
+    width: 100%;
+}
+.addres-info .info-input {
+    overflow: hidden;
+    padding: 4px 0;
+    width: 100%;
+}
+.info-input .info-lb {
+    color: #000;
+    display: block;
+    float: left;
+    font-weight: bold;
+    line-height: 32px;
+    width: 100px;
+}
+.error-lb {
+    color: #ff0000;
+}
+.info-input .info-text, .info-areatext {
+    float: right;
+    width: 260px;
+}
+.wrap-register .info-text {
+    float: left;
+    padding-right: 10px;
+}
+.wrap-register .ter {
+    text-align: right;
+}
+.info-text .info-textbox {
+    height: 20px;
+    line-height: 20px;
+    padding: 6px 12px;
+    width: 232px;
+}
+.info-text .info-textbox, .info-text .box-select, .info-text-a .info-textbox {
+    background: #f4f4f4;
+    border: solid 1px #dcdcdc;
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+}
+.info-input .sex {
+    color: #4a4a4a;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.info-input .sex label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.info-text .box-select {
+    padding: 3px;
+    height: 32px;
+    line-height: 32px;
+    width: 260px;
+}
+.wrap-register .date {
+    float: left;
+    width: 90px;
+}
+.wrap-register .fr {
+    float: right;
+}
+.wrap-register .ter {
+    text-align: right;
+}
+.wrap-register .info-lb {
+    padding-right: 10px;
+    width: 70px;
+}
+.info-input .info-l16 {
+    line-height: 16px;
+}
+.info-input .info-text-a {
+    float: left;
+    width: 435px;
+}
+.info-text-a .info-textbox {
+    padding: 12px;
+    resize: none;
+    line-height: 20px;
+    width: 411px;
+}
+.passnode {
+    color: #807617;
+    font-size: 11px;
+    font-style: italic;
+    width: 130px;
+}
+.wrap-register .check-text {
+    padding-left: 80px;
+    width: 400px;
+}
+.wrap-register .w-check {
+    overflow: hidden;
+    padding: 4px 0;
+    width: 100%;
+}
+.info-text .check-ok {
+    color: #252525;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+.info-text .check-ok label {
+    display: block;
+    float: left;
+    padding-left: 5px;
+    width: 210px;
+}
+.info-text .check-ok input {
+    float: left;
+    margin-top: 3px;
+}
+.wrap-register .w-check label {
+    color: #494949;
+    width: 300px;
+}
+.info-text .btn-button {
+    margin: 15px 0 0;
+}
+.register-right .section-cart
+{
+    border-left: none;
+}
+.cart-login
+{
+    width: 402px;
+}
+.wrap-register.login .addres-info
+{
+    padding-top: 16px;
+}
+
+
+.btn-app
+{
+    text-align: right;
+    width: 100%;
+}
+.btn-register
+{
+    background: #0086c4;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14px;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding: 0 35px;
+    margin-left: 3px;
+    border-radius: 20px;
+}
+.wrap-register .btn-a, .wrap-register .btn-register
+{
+    float: left;
+}
+.btn-button-pt
+{
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+.btn-a:hover, .btn-button:hover,
+.btn-a.show
+{
+    background: #ff6c00;
+    color: #fff;
+    text-decoration: none;
+}
 /*======================================================FOOTER===========================================*/
 #footer
 {
