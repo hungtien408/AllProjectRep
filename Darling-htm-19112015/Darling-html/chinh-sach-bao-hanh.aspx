@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub2.master" AutoEventWireup="true"
     CodeFile="chinh-sach-bao-hanh.aspx.cs" Inherits="chinh_sach_bao_hanh" %>
 
+<asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
+    <title>DARLING</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="mainContent" runat="Server">
     <div id="tabguarantee" class="guarantee-list">
         <div class="head-2">
@@ -194,7 +197,7 @@
             <div class="wrap-guarantee">
                 <div id="accordionList" class="accordion-question">
                     <h3 class="accordion-head" data-id="#accordion-1">
-                        <span class="icon-question-sign icon-left"></span>Nên lắp đặt tủ như thế nào để
+                        <span class="icon-left">1</span>Nên lắp đặt tủ như thế nào để
                         đạt hiệu quả hoạt động tốt nhất?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-1" class="accordion-content">
                         <div class="desription">
@@ -206,7 +209,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-2">
-                        <span class="icon-question-sign icon-left"></span>Cách xử lý tủ không hoạt động như thế nào?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">2</span>Cách xử lý tủ không hoạt động như thế nào?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-2" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -217,7 +220,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-3">
-                        <span class="icon-question-sign icon-left"></span>Vận chuyển tủ lạnh như thế nào cho đúng cách?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">3</span>Vận chuyển tủ lạnh như thế nào cho đúng cách?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-3" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -228,7 +231,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-4">
-                        <span class="icon-question-sign icon-left"></span>Cách xử lý tủ ồn?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">4</span>Cách xử lý tủ ồn?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-4" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -239,7 +242,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-5">
-                        <span class="icon-question-sign icon-left"></span>Tại sao tủ có mùi hôi? Và cách giải quyết?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">5</span>Tại sao tủ có mùi hôi? Và cách giải quyết?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-5" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -250,7 +253,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-6">
-                        <span class="icon-question-sign icon-left"></span>Tại sao hai bên thân tủ nóng?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">6</span>Tại sao hai bên thân tủ nóng?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-6" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -261,7 +264,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-7">
-                        <span class="icon-question-sign icon-left"></span>Tại sao thấy nước đọng ở bề mặt trong tủ lạnh?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">7</span>Tại sao thấy nước đọng ở bề mặt trong tủ lạnh?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-7" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -272,7 +275,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-9">
-                        <span class="icon-question-sign icon-left"></span>Tại sao thấy nước đọng ở bề mặt ngoài tủ lạnh?<span class="a-icon fa fa-chevron-up"></span></h3>
+                        <span class="icon-left">8</span>Tại sao thấy nước đọng ở bề mặt ngoài tủ lạnh?<span class="a-icon fa fa-chevron-up"></span></h3>
                     <div id="accordion-9" class="accordion-content">
                         <div class="desription">
                             <p>
@@ -283,7 +286,7 @@
                         </div>
                     </div>
                     <h3 class="accordion-head" data-id="#accordion-10">
-                        <span class="icon-question-sign icon-left"></span>Nên lắp tủ như thế nào để đạt hiệu quả hoạt động tốt nhất?<span class="a-icon fa fa-chevron-up"></span>
+                        <span class="icon-left">9</span>Nên lắp tủ như thế nào để đạt hiệu quả hoạt động tốt nhất?<span class="a-icon fa fa-chevron-up"></span>
                     </h3>
                     <div id="accordion-10" class="accordion-content">
                         <div class="desription">

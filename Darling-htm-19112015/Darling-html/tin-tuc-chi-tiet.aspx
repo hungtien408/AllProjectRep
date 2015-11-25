@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-news.master" AutoEventWireup="true"
     CodeFile="tin-tuc-chi-tiet.aspx.cs" Inherits="tin_tuc_chi_tiet" %>
 
+<asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
+    <title>DARLING</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="tabTinTuc" runat="Server">
     <div class="wrap-text">
         <h1 class="title">

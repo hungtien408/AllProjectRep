@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
     CodeFile="san-pham.aspx.cs" Inherits="san_pham" %>
 
+<asp:Content ID="Content5" ContentPlaceHolderID="head" Runat="Server">
+    <title>DARLING</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="colLeft" runat="Server">
     <h3 class="title-a">
         Tin tức</h3>

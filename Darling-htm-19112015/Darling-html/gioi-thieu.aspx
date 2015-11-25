@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-about.master" AutoEventWireup="true"
     CodeFile="gioi-thieu.aspx.cs" Inherits="gioi_thieu" %>
 
+<asp:Content ID="Content4" ContentPlaceHolderID="head" Runat="Server">
+    <title>DARLING</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="colLeft" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="colRight" runat="Server">

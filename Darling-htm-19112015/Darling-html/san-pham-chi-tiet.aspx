@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
     CodeFile="san-pham-chi-tiet.aspx.cs" Inherits="san_pham_chi_tiet" %>
 
+<asp:Content ID="Content5" ContentPlaceHolderID="head" Runat="Server">
+    <title>DARLING</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="colLeft" runat="Server">
     <div class="box-asibar asibar-detail">
         <ul class="list-nav">
