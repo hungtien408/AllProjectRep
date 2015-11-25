@@ -1,6 +1,10 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
     CodeFile="site-product.master.cs" Inherits="site_product" %>
 
+<asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="wrapper-main">
         <div id="colAside">

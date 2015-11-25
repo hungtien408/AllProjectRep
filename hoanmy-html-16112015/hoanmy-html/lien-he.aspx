@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true"
     CodeFile="lien-he.aspx.cs" Inherits="lien_he" %>
 
+<asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
+    <title>HOÀN MỸ</title>
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="wrapper-menu wrap-site">
         <div class="wrapper-main">
