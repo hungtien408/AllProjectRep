@@ -631,7 +631,7 @@ body {
 #tabs .menu-control li:hover, #tabs .menu-control li.ui-state-active {
     background-color: #ec2327; 
 }
-#tabs .menu-control li a:hover, #tabs .menu-control li.ui-state-active a{
+#tabs .menu-control li a:hover, #tabs .menu-control li:hover a, #tabs .menu-control li.ui-state-active a{
     text-decoration: none;
     color: #fff;
 }
